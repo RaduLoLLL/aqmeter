@@ -180,7 +180,8 @@ function Table() {
               <td className="p-6">
                 {data
                   .map((invoice) => invoice.invoiceValue)
-                  .reduce((partialSum, a) => partialSum + a, 0)}
+                  .reduce((partialSum, a) => partialSum + a, 0)
+                  .toFixed(1)}
               </td>
             </tr>
           </tbody>
