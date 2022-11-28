@@ -8,7 +8,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 function CardGroup() {
   return (
-    <div className="grid grid-rows-2 grid-cols-2 grid-flow-row-dense">
+    <div className="grid grid-rows-4 grid-cols-1 md:grid-rows-2 md:grid-cols-2 grid-flow-row-dense">
       <Card
         icon={faBoltLightning}
         title="Amet enim"

@@ -14,11 +14,11 @@ function Card({
 }) {
   const style =
     border === "rb"
-      ? "border-r-2 border-b-2 border-solid border-c777"
+      ? "border-b-2 md:border-r-2  border-solid border-c777"
       : border === "b"
       ? "border-b-2 border-solid border-c777"
       : border === "r"
-      ? "border-r-2 border-solid border-c777"
+      ? "border-b-2 md:border-b-0 md:border-r-2 border-solid border-c777"
       : "";
   return (
     <div className={"flex flex-col items-center text-c777 py-12 " + style}>

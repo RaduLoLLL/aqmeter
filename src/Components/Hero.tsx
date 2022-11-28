@@ -17,7 +17,7 @@ function Hero() {
         <h3 className="text-lg mt-8">
           Acces online account of utilities companies
         </h3>
-        <div className="flex mt-8 space-x-8">
+        <div className="flex flex-col md:flex-row mt-8 md:space-x-8 space-y-8 md:space-y-0">
           <Button size="large" light blue={false} text="Register" />
           <Button size="large" light={false} blue={false} text="Learn More" />
         </div>
